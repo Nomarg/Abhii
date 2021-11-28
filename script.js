@@ -47,4 +47,8 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+
+    $("#submit").click(function () {
+        alert("Thank You for contacting me!");
+     });
 });
